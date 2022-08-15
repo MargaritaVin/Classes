@@ -12,7 +12,7 @@ class Employee {
     get fullName() {
         console.log(`${this.firstName} ${this.lastName}`);
     }
-    yearSalary() {
+    calcYearSalary() {
         console.log (this.salary * 12);
     } 
 };
@@ -23,5 +23,5 @@ console.log(manager);
 console.log(accountant);
 manager.fullName;
 accountant.fullName;
-manager.yearSalary();
-accountant.yearSalary();
+manager.calcYearSalary();
+accountant.calcYearSalary();
